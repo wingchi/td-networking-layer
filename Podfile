@@ -6,7 +6,9 @@ target 'NetworkingLayer' do
   use_frameworks!
 
   # Pods for NetworkingLayer
-
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  
   target 'NetworkingLayerTests' do
     inherit! :search_paths
     # Pods for testing
